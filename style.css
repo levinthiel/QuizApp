@@ -3,7 +3,7 @@
   margin: 0;
 }
 body {
-  background: #fffff;
+  background: #fff;
 }
 header {
   height: 100px;
@@ -107,3 +107,52 @@ nav a,
 nav a svg {
   color: #22313f;
 }
+/*----------------------------------------------------PROFILE PAGE*/
+#profilehead{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#profilehead h2{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #23323e;
+    padding-left: 30px;
+}
+.profilepic img {
+  width: 100px;
+  border: 9px solid #23323e;
+  border-radius: 180px;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #23323e;
+}
+p {
+    font-family: sans-serif;
+    color: #23323e;
+    font-size: 1rem;
+    line-height: 23px;
+}
+.counters {
+    width: 100%;
+    margin-top: 50px;
+  }
+.counters ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    gap: 10px;
+  }
+.counters ul li {
+    padding: 10px 15px;
+    background-color: #8dc6ff;
+    border-radius: 15px;
+    font-family: sans-serif;
+    color: #22313f;
+  }
+/*EOF PROFILE PAGE*/
