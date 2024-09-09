@@ -20,13 +20,18 @@ header {
 .container {
   width: 600px;
   margin: 0px auto;
-  padding: 20px;
+  padding: 50px;
+}
+.container article:last-child {
+  margin-bottom: 100px;
 }
 .box {
   width: 100%;
   border-radius: 10px;
   background-color: #e4f1fe;
   padding: 50px;
+  position: relative;
+  margin-bottom: 55px;
 }
 .question {
   font-family: roboto, arial, sans-serif;
@@ -34,7 +39,7 @@ header {
   font-size: 1.5rem;
   color: #22313f;
 }
-button {
+button.answer {
   display: block;
   margin: 40px auto 0px auto;
   height: 60px;
@@ -50,7 +55,7 @@ button {
   cursor: pointer;
   transition: all 0.53s;
 }
-button:hover {
+button.answer:hover {
   background-color: #22313f;
 }
 .categories {
@@ -69,6 +74,15 @@ button:hover {
   border-radius: 15px;
   font-family: sans-serif;
   color: #22313f;
+}
+.favs {
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  border: navajowhite;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: #8dc6ff;
 }
 nav {
   width: 100%;
