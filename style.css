@@ -96,6 +96,13 @@ nav {
   fill: #22313f;
   bottom: 0;
 }
+nav a {
+  padding: 15px;
+  border-radius: 62px;
+}
+nav a.active {
+  background-color: #fff;
+}
 nav a,
 nav a svg {
   color: #22313f;
