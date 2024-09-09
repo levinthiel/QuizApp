@@ -5,3 +5,15 @@
 body {
   background: #eee;
 }
+header {
+  height: 100px;
+  background-color: #afc5ff;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: impact, sans-serif;
+  color: #131313;
+  letter-spacing: 3px;
+}
