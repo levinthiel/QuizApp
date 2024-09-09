@@ -3,11 +3,11 @@
   margin: 0;
 }
 body {
-  background: #eee;
+  background: #fffff;
 }
 header {
   height: 100px;
-  background-color: #afc5ff;
+  background-color: #8dc6ff;
   text-align: center;
   display: flex;
   width: 100%;
@@ -17,9 +17,21 @@ header {
   color: #131313;
   letter-spacing: 3px;
 }
-container {
-  width: 800px;
+.container {
+  width: 600px;
   margin: 0px auto;
+  padding: 20px;
+}
+.box {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #e4f1fe;
+  padding: 50px;
+}
+.question {
+  font-family: roboto, arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 nav {
   width: 100%;
@@ -28,7 +40,7 @@ nav {
   position: fixed;
   justify-content: space-around;
   align-items: center;
-  background-color: #afc5ff;
+  background-color: #8dc6ff;
   color: #131313;
   fill: #131313;
   bottom: 0;
