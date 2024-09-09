@@ -32,6 +32,7 @@ header {
   font-family: roboto, arial, sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
+  color: #22313f;
 }
 button {
   display: block;
@@ -46,6 +47,11 @@ button {
   font-size: 1rem;
   font-family: sans-serif;
   letter-spacing: 4px;
+  cursor: pointer;
+  transition: all 0.53s;
+}
+button:hover {
+  background-color: #22313f;
 }
 nav {
   width: 100%;
@@ -58,4 +64,8 @@ nav {
   color: #22313f;
   fill: #22313f;
   bottom: 0;
+}
+nav a,
+nav a svg {
+  color: #22313f;
 }
